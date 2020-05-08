@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
+$colorz: (
+    primary: #1b1b1b,
+    secondary: rgb(192, 192, 192),
+    white: #fff1f1,
+    darkgrey: #707070,
+    green: #2bfc83,
+    lightgrey: #cacaca,
+    red: red,
+    orange: #ffa600,
+    heda: #212121
+);
+
+@mixin mixiColor($color) {
+    color:$color;
+}
+
+@mixin mixiBGColor($bgcolor) {
+    background-color:$bgcolor;
+}
+
+@mixin Imgbox($img){
+    // opacity: 0.89;
+    height: 900px;
+    background-size: $img;
+  }
+
+
